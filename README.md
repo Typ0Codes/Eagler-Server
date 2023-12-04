@@ -19,7 +19,7 @@ In the "Console" tab in the replit, you can send server commands.
 
 ## To save progress:
 **Notice: This is now done automatically, every 5 minutes, using a plugin!** In the server console or in-game as an opped player, run `/save-all` to save the world.
-
+## DO NOT COMMIT CHANGES!!! Gitpod will save your server locally, your progress will not be lost.
 ## Too slow?
 This is because you are using a free service to host a Minecraft server. Of course it is slow and the only way to fix this is to self-host at home.
 

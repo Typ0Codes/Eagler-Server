@@ -687,3 +687,25 @@
 09:18:51 [SEVERE] 	at java.util.TimerThread.run(Unknown Source)
 09:22:01 [INFO] [Catfoolyou] -> UpstreamBridge has disconnected
 09:22:01 [INFO] [Catfoolyou] <-> DownstreamBridge <-> [lobby] has disconnected
+13:19:18 [INFO] Enabled BungeeCord version unknown
+13:19:18 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+13:19:18 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+13:19:18 [INFO] Listening websockets on /0.0.0.0:25565
+13:19:18 [INFO] Server bans.txt changed, it will be reloaded automatically
+13:19:18 [INFO] Reload complete
+13:19:18 [INFO] Listening on /127.11.0.1:41445
+13:19:19 [SEVERE] the blacklist subscription URL 'https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt' is invalid
+13:19:19 [SEVERE] java.io.FileNotFoundException: https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+13:19:19 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1935)
+13:19:19 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1525)
+13:19:19 [SEVERE] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:250)
+13:19:19 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.update(DomainBlacklist.java:153)
+13:19:19 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.init(DomainBlacklist.java:121)
+13:19:19 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:268)
+13:19:19 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:229)
+13:20:47 [INFO] [Catfoolyou] <-> InitialHandler has connected
+13:20:47 [INFO] Player 'Catfoolyou' [/192.168.135.12] has remote websocket IP: 192.168.135.12
+13:20:47 [INFO] Player 'Catfoolyou' [/192.168.135.12] is using a client at: catfoolyou.github.io
+13:20:47 [INFO] [Catfoolyou] <-> ServerConnector [lobby] has connected
+13:20:56 [INFO] [Catfoolyou] -> UpstreamBridge has disconnected
+13:20:56 [INFO] [Catfoolyou] <-> DownstreamBridge <-> [lobby] has disconnected

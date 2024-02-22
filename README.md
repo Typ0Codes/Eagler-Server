@@ -2,9 +2,6 @@
 
 ### Originally made by [ayunami2000](https://github.com/ayunami2000)
 
-## [Google doc tutorial](https://docs.google.com/document/d/1MdaQRQbRXb9wXRtdS-c7OGBMcTh9DO8iAKT6fcpdJ5g/edit)
-Here in case it helps!
-
 ## Usage:
 Run it in Replit (or Gitpod, instructions coming soon)
 

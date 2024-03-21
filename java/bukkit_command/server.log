@@ -18305,3 +18305,40 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 
 2024-03-21 16:53:54 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
 
+2024-03-21 16:55:32 [INFO] CONSOLE: Stopping the server..[m
+
+2024-03-21 16:55:32 [INFO] Stopping server
+2024-03-21 16:55:32 [INFO] [AntiSwear] Disabling AntiSwear v3.5
+2024-03-21 16:55:32 [INFO] [AntiSwear] AntiSwear 3 Has Been Disabled.
+2024-03-21 16:55:32 [INFO] [[EaglerPluginUpdater]] Disabling EaglerPluginUpdater v1.1.2
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Disabled! D:[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] [Timber] Disabling Timber v1.0.9
+2024-03-21 16:55:32 [INFO] [AuthMe] Disabling AuthMe v2.7.11
+2024-03-21 16:55:32 [INFO] [AuthMe] Authme 2.7.11 disabled
+2024-03-21 16:55:32 [INFO] [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [INFO] --------------------------------------------[m
+
+2024-03-21 16:55:32 [WARNING] DSCT: Socket closed
+2024-03-21 16:55:32 [INFO] Closing listening thread
+2024-03-21 16:55:32 [INFO] Saving players
+2024-03-21 16:55:32 [INFO] Saving worlds
+2024-03-21 16:55:32 [INFO] Saving chunks for level 'world'/Overworld
+2024-03-21 16:55:33 [INFO] Saving chunks for level 'world_nether'/Nether
+2024-03-21 16:55:33 [INFO] Saving chunks for level 'world_the_end'/The End

@@ -17832,3 +17832,231 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.I
 2024-03-21 16:28:24 [INFO] Saving chunks for level 'world'/Overworld
 2024-03-21 16:28:25 [INFO] Saving chunks for level 'world_nether'/Nether
 2024-03-21 16:28:25 [INFO] Saving chunks for level 'world_the_end'/The End
+2024-03-21 16:29:58 [INFO] Starting minecraft server version 1.5.2
+2024-03-21 16:29:58 [INFO] Loading properties
+2024-03-21 16:29:58 [INFO] Default game type: SURVIVAL
+2024-03-21 16:29:58 [INFO] Generating keypair
+2024-03-21 16:29:59 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2024-03-21 16:29:59 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2024-03-21 16:29:59 [SEVERE] Could not load 'plugins/OptiFine_1.8.8_HD_U_I7 (1).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:247)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_5_R3.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_5_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:106)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(Unknown Source)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 9 more
+2024-03-21 16:29:59 [SEVERE] Could not load 'plugins/LoginSecurity-3.2.0-Bukkit (1).jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/apache/logging/log4j/core/Filter
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_5_R3.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_5_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:106)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(Unknown Source)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.NoClassDefFoundError: org/apache/logging/log4j/core/Filter
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: org.apache.logging.log4j.core.Filter
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+2024-03-21 16:30:00 [SEVERE] Could not load 'plugins/Worldguard.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/Injector
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:184)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:305)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:230)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.loadPlugins(CraftServer.java:239)
+	at org.bukkit.craftbukkit.v1_5_R3.CraftServer.<init>(CraftServer.java:217)
+	at net.minecraft.server.v1_5_R3.PlayerList.<init>(PlayerList.java:55)
+	at net.minecraft.server.v1_5_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.init(DedicatedServer.java:106)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(Unknown Source)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/Injector
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:173)
+	... 9 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.Injector
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass0(PluginClassLoader.java:80)
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:53)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+2024-03-21 16:30:00 [INFO] [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+2024-03-21 16:30:00 [INFO] [AuthMe] Loading AuthMe v2.7.11
+2024-03-21 16:30:00 [INFO] [dynmap] Loading dynmap v1.9.1-875
+2024-03-21 16:30:00 [SEVERE] Exception in thread "Thread-5" 
+2024-03-21 16:30:00 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+2024-03-21 16:30:00 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+2024-03-21 16:30:00 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+2024-03-21 16:30:00 [SEVERE] 	... 5 more
+
+2024-03-21 16:30:00 [INFO] [dynmap] Mod Support API available
+2024-03-21 16:30:00 [INFO] [Timber] Loading Timber v1.0.9
+2024-03-21 16:30:00 [INFO] [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+2024-03-21 16:30:00 [INFO] [AntiSwear] Loading AntiSwear v3.5
+2024-03-21 16:30:00 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-03-21 16:30:00 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2024-03-21 16:30:00 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-03-21 16:30:00 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2024-03-21 16:30:00 [INFO] Preparing level "world"
+2024-03-21 16:30:00 [INFO] Preparing start region for level 0 (Seed: -1744572549825662386)
+2024-03-21 16:30:01 [INFO] Preparing spawn area: 95%
+2024-03-21 16:30:01 [INFO] Preparing start region for level 1 (Seed: 7608464311341428855)
+2024-03-21 16:30:02 [INFO] Preparing start region for level 2 (Seed: 7608464311341428855)
+2024-03-21 16:30:02 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2024-03-21 16:30:02 [INFO] Check 1 passed
+
+2024-03-21 16:30:03 [INFO] Check 3 passed
+
+2024-03-21 16:30:03 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:03 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:03 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+2024-03-21 16:30:03 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+2024-03-21 16:30:03 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+2024-03-21 16:30:03 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+2024-03-21 16:30:03 [INFO] and creating an issue or pull request of the plugin you want to add[m
+
+2024-03-21 16:30:03 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:03 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:03 [INFO] [AuthMe] Enabling AuthMe v2.7.11
+2024-03-21 16:30:03 [INFO] [AuthMe] Loading Configuration File...
+2024-03-21 16:30:03 [INFO] [AuthMe] Merge new Config Options if needed..
+2024-03-21 16:30:03 [INFO] [AuthMe] Set Language: en
+2024-03-21 16:30:03 [INFO] [AuthMe] Authme 2.7.11 enabled
+2024-03-21 16:30:03 [INFO] [dynmap] Enabling dynmap v1.9.1-875
+2024-03-21 16:30:03 [INFO] [dynmap] Using Bukkit Permissions (superperms) for access control
+2024-03-21 16:30:03 [INFO] [dynmap] Web interface permissions only available for online users
+2024-03-21 16:30:03 [SEVERE] [dynmap] Error reading plugins/dynmap/markers.yml
+2024-03-21 16:30:03 [INFO] [dynmap] Extracted files upgraded
+2024-03-21 16:30:03 [INFO] [dynmap] Mod Support processing completed
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 21 shaders.
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 82 perspectives.
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 12 lightings.
+2024-03-21 16:30:04 [INFO] [dynmap] Web server started on address 127.0.0.1:8123
+2024-03-21 16:30:04 [INFO] [dynmap] version 1.9.1-875 is enabled - core version 1.9.1-1832
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 3 maps of world 'world'.
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 2 maps of world 'world_nether'.
+2024-03-21 16:30:04 [INFO] [dynmap] Loaded 2 maps of world 'world_the_end'.
+2024-03-21 16:30:04 [INFO] [dynmap] Enabled
+2024-03-21 16:30:04 [INFO] [Timber] Enabling Timber v1.0.9
+2024-03-21 16:30:04 [INFO] Timber Log Materials: [LOG]
+2024-03-21 16:30:04 [INFO] Timber Axe Materials: [IRON_AXE, GOLD_AXE, DIAMOND_AXE, STONE_AXE, WOOD_AXE]
+2024-03-21 16:30:04 [INFO] [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+2024-03-21 16:30:05 [INFO] [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+2024-03-21 16:30:05 [INFO] Check 1 passed
+
+2024-03-21 16:30:05 [INFO] Check 3 passed
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+
+2024-03-21 16:30:05 [INFO] To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+
+2024-03-21 16:30:05 [INFO] To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+
+2024-03-21 16:30:05 [INFO] You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+
+2024-03-21 16:30:05 [INFO] and creating an issue or pull request of the plugin you want to add[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+
+2024-03-21 16:30:05 [INFO] You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] --------------------------------------------[m
+
+2024-03-21 16:30:05 [INFO] [AntiSwear] Enabling AntiSwear v3.5
+2024-03-21 16:30:05 [INFO] [AntiSwear] AntiSwear 3 Has Been Enabled!
+2024-03-21 16:30:05 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2024-03-21 16:30:05 [INFO] Done (5.652s)! For help, type "help" or "?"
+2024-03-21 16:30:06 [INFO] Crash Loop Detector is Running! (30sec)
+
+2024-03-21 16:30:06 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2024-03-21 16:30:07 [INFO] Typ0[/127.0.0.1:57337] logged in with entity id 306 at ([world] -137.30000001192093, 36.0, 196.30000001192093)
+2024-03-21 16:30:20 [INFO] Typ0 issued an AuthMe command!
+2024-03-21 16:30:20 [INFO] [AuthMe] Typ0 logged in!
+2024-03-21 16:30:23 [INFO] Typ0 issued server command: /plugins
+2024-03-21 16:30:28 [INFO] Typ0 issued server command: /dynmap
+2024-03-21 16:30:38 [INFO] Typ0 issued server command: /help dynmap
+2024-03-21 16:30:45 [INFO] Typ0 issued server command: /dmap
+2024-03-21 16:30:50 [INFO] Typ0 issued server command: /dynmap
+2024-03-21 16:31:00 [INFO] /dynmap - Control execution of dynmap.[m
+
+2024-03-21 16:31:00 [INFO]  Valid subcommands:  add-id-for-ip cancelrender del-id-for-ip fullrender hide ids-for-ip ips-for-id pause purgemap purgequeue purgeworld radiusrender render resetstats sendtoweb show stats triggerstats updaterender version webregister[m
+
+2024-03-21 16:31:22 [INFO] Login support is not enabled[m
+
+2024-03-21 16:31:45 [INFO] Typ0 lost connection: disconnect.quitting
+2024-03-21 16:31:45 [INFO] Connection reset
+2024-03-21 16:32:36 [INFO] [dynmap] Loading default resource pack

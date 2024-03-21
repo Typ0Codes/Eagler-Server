@@ -466,3 +466,133 @@
 2024-02-05 13:20:56 [INFO] Connection reset
 2024-02-05 13:20:56 [INFO] Catfoolyou lost connection: disconnect.quitting
 2024-02-05 13:21:12 [INFO] Stopping server
+2024-03-19 19:31:27 [INFO] Starting minecraft server version 1.5.2
+2024-03-19 19:31:27 [INFO] Loading properties
+2024-03-19 19:31:27 [INFO] Default game type: SURVIVAL
+2024-03-19 19:31:27 [INFO] Generating keypair
+2024-03-19 19:31:27 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2024-03-19 19:31:28 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2024-03-19 19:31:28 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-03-19 19:31:28 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2024-03-19 19:31:28 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-03-19 19:31:28 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2024-03-19 19:31:28 [INFO] Preparing level "world"
+2024-03-19 19:31:28 [SEVERE] Exception in thread "Thread-5" 
+2024-03-19 19:31:28 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+2024-03-19 19:31:28 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+2024-03-19 19:31:28 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+2024-03-19 19:31:28 [SEVERE] 	... 5 more
+
+2024-03-19 19:31:28 [INFO] Preparing start region for level 0 (Seed: -1744572549825662386)
+2024-03-19 19:31:29 [INFO] Preparing spawn area: 4%
+2024-03-19 19:31:30 [INFO] Preparing spawn area: 12%
+2024-03-19 19:31:31 [INFO] Preparing spawn area: 24%
+2024-03-19 19:31:32 [INFO] Preparing spawn area: 33%
+2024-03-19 19:31:33 [INFO] Preparing spawn area: 49%
+2024-03-19 19:31:34 [INFO] Preparing spawn area: 62%
+2024-03-19 19:31:35 [INFO] Preparing spawn area: 74%
+2024-03-19 19:31:36 [INFO] Preparing spawn area: 91%
+2024-03-19 19:31:37 [INFO] Preparing start region for level 1 (Seed: -1744572549825662386)
+2024-03-19 19:31:37 [INFO] Preparing spawn area: 0%
+2024-03-19 19:31:38 [INFO] Preparing spawn area: 12%
+2024-03-19 19:31:39 [INFO] Preparing spawn area: 24%
+2024-03-19 19:31:41 [INFO] Preparing spawn area: 49%
+2024-03-19 19:31:42 [INFO] Preparing spawn area: 78%
+2024-03-19 19:31:42 [INFO] Preparing start region for level 2 (Seed: -1744572549825662386)
+2024-03-19 19:31:43 [INFO] Preparing spawn area: 0%
+2024-03-19 19:31:44 [INFO] Preparing spawn area: 45%
+2024-03-19 19:31:44 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2024-03-19 19:31:45 [INFO] Done (16.590s)! For help, type "help" or "?"
+2024-03-19 19:31:45 [INFO] Crash Loop Detector is Running! (30sec)
+
+2024-03-19 19:31:45 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2024-03-19 19:33:36 [INFO] TypO[/127.0.0.1:40641] logged in with entity id 4167 at ([world] -110.5, 70.0, 233.5)
+2024-03-19 19:37:24 [INFO] TypO issued server command: /restart
+2024-03-19 19:37:37 [INFO] Unknown command. Type "help" for help.[m
+
+2024-03-19 19:37:41 [INFO] Unknown command. Type "help" for help.[m
+
+2024-03-19 19:38:14 [INFO] Starting minecraft server version 1.5.2
+2024-03-19 19:38:14 [INFO] Loading properties
+2024-03-19 19:38:14 [INFO] Default game type: SURVIVAL
+2024-03-19 19:38:14 [INFO] Generating keypair
+2024-03-19 19:38:15 [INFO] Starting Minecraft server on 127.0.0.1:25569
+2024-03-19 19:38:15 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2024-03-19 19:38:15 [WARNING] **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2024-03-19 19:38:15 [WARNING] The server will make no attempt to authenticate usernames. Beware.
+2024-03-19 19:38:15 [WARNING] While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2024-03-19 19:38:15 [WARNING] To change this, set "online-mode" to "true" in the server.properties file.
+2024-03-19 19:38:15 [INFO] Preparing level "world"
+2024-03-19 19:38:16 [INFO] Preparing start region for level 0 (Seed: -1744572549825662386)
+2024-03-19 19:38:16 [SEVERE] Exception in thread "Thread-5" 
+2024-03-19 19:38:16 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+2024-03-19 19:38:16 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+2024-03-19 19:38:16 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+2024-03-19 19:38:16 [SEVERE] 	... 5 more
+
+2024-03-19 19:38:17 [INFO] Preparing spawn area: 20%
+2024-03-19 19:38:18 [INFO] Preparing spawn area: 29%
+2024-03-19 19:38:19 [INFO] Preparing spawn area: 45%
+2024-03-19 19:38:20 [INFO] Preparing spawn area: 58%
+2024-03-19 19:38:21 [INFO] Preparing spawn area: 83%
+2024-03-19 19:38:21 [INFO] Preparing start region for level 1 (Seed: 7608464311341428855)
+2024-03-19 19:38:21 [INFO] Preparing start region for level 2 (Seed: 7608464311341428855)
+2024-03-19 19:38:21 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2024-03-19 19:38:21 [INFO] Done (5.946s)! For help, type "help" or "?"
+2024-03-19 19:38:21 [INFO] Crash Loop Detector is Running! (30sec)
+
+2024-03-19 19:38:21 [INFO] To increase, add "--crashTimeout [sec]" to the program's arguments
+
+2024-03-19 19:38:33 [INFO] TypO[/127.0.0.1:50115] logged in with entity id 3558 at ([world] -110.5, 70.0, 233.5)
+2024-03-19 19:38:48 [INFO] TypO issued server command: /login
+2024-03-19 19:38:52 [INFO] TypO issued server command: /permissions
+2024-03-19 19:39:20 [INFO] TypO issued server command: /plugins
+2024-03-19 19:42:13 [INFO] TypO issued server command: /tpa
+2024-03-19 19:42:16 [INFO] TypO issued server command: /help
+2024-03-19 19:42:25 [INFO] TypO issued server command: /bukkit
+2024-03-19 19:42:29 [INFO] TypO issued server command: /help bukkit
+2024-03-19 19:42:42 [INFO] TypO issued server command: /restart
+2024-03-19 19:42:52 [INFO] CONSOLE: Opped Typ0[m
+
+2024-03-19 19:42:58 [INFO] TypO issued server command: /restart
+2024-03-19 19:43:04 [INFO] TypO issued server command: /help
+2024-03-19 19:43:12 [INFO] TypO issued server command: /help bukkit

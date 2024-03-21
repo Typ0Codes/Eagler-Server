@@ -2766,3 +2766,27 @@ Caused by: org.yaml.snakeyaml.error.YAMLException: Unable to find property 'desc
 
 16:45:00 [SEVERE] 	at java.base/java.util.TimerThread.run(Timer.java:516)
 
+16:53:48 [INFO] Enabled BungeeCord version unknown
+16:53:48 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+16:53:49 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+16:53:49 [INFO] Listening websockets on /0.0.0.0:25565
+16:53:49 [INFO] Server bans.txt changed, it will be reloaded automatically
+16:53:49 [INFO] Reload complete
+16:53:49 [INFO] Listening on /127.11.0.1:37125
+16:53:50 [SEVERE] the blacklist subscription URL 'https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt' is invalid
+16:53:50 [SEVERE] java.io.FileNotFoundException: https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+
+16:53:50 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+
+16:53:50 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+
+16:53:50 [SEVERE] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+
+16:53:50 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.update(DomainBlacklist.java:153)
+
+16:53:50 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.init(DomainBlacklist.java:121)
+
+16:53:50 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:268)
+
+16:53:50 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:229)
+

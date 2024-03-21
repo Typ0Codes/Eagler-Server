@@ -1,5 +1,5 @@
 origin_blacklist_use_simple_whitelist: false
-server_name: EaglercraftBungee Server
+server_name: A.L.L. 8th Minecraft Server
 token_verify: ''
 groups: {}
 servers:
@@ -66,7 +66,7 @@ listeners:
   force_default_server: true
   forward_ip: false
   server_icon: server-icon.png
-  motd1: '&6An Eaglercraft server'
+  motd1: '&6A.L.L. 8th EaglerCraft Server'
   allow_motd: true
   allow_query: true
   request_motd_cache:

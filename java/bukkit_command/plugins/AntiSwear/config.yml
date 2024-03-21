@@ -1,0 +1,10 @@
+KICK_ON_SWEAR: true
+KICK_MESSAGE: '&4Swearing is not allowed on this server!'
+EXPLOSION_ON_SWEAR: true
+REPLACE_MESSAGE: false
+BEEP_WORD: false
+COMMAND_ON_SWEAR: warn <player>
+NEW_MESSAGE: I am a poop face!
+list:
+- fuck
+- shit
